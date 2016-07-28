@@ -67,6 +67,7 @@ RUN echo "deb http://packages.erlang-solutions.com/ubuntu trusty contrib" >> /et
     git \
     unzip \
     build-essential \
+    imagemagick \
     wget && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
